@@ -1,0 +1,51 @@
+@import './cdn';
+@import './variables';
+
+@mixin description-font {
+    font: $open-sans
+    $fz-15
+    $fw-regular
+    $lh-decription;
+    color: $description;
+}
+@mixin title-font {
+    font: $open-sans
+    $fz-40
+    $fw-bold
+    $lh-title;
+    color: $primary;
+}
+@mixin btn-font {
+    font: $nunito
+    $fz-15
+    $fw-semibold
+    $lh-title;
+    color: $primary;
+    text-align: center; 
+}
+@mixin form-label-font {
+    font: $nunito
+    $fz-12
+    $fw-bold;
+    color: $primary;
+}
+@mixin form-input-font {
+    font: $nunito
+    $fz-15
+    $fw-regular;
+    color: $description;
+}
+@mixin improve-title {
+    font: $open-sans
+    $fz-36
+    $fw-semibold;
+    color: $improve-title;
+    text-align: center;
+}
+@mixin blog-title {
+    font: $open-sans
+    $fz-40
+    $fw-semibold;
+    color: $improve-title;
+    text-align: center;
+}
